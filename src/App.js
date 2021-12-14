@@ -8,12 +8,10 @@ export default function App() {
   return (
     <div className="mainContainer">
       <div className="dataContainer">
-        <div className="header">👋 Hey there!</div>
-
+        <div className="header">Hey there!</div>
         <div className="bio">
           What's up, my name is Pete! Hoping to become a blockchain developer.
         </div>
-
         <button className="waveButton" onClick={wave}>
           Wave at Me
         </button>
